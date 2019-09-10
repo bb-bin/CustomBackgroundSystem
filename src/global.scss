@@ -2,4 +2,10 @@
 
 #root {
   height: 100%;
+  // background: url(./assets/img/icon.gif) no-repeat;
+  // background-size: cover;
+}
+
+#root > div:first-child {
+  flex: 1;
 }
