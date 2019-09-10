@@ -1,0 +1,24 @@
+.normal {
+  .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+
+    .trigger:hover {
+      color: #1890ff;
+    }
+  }
+
+  .leftNav {
+    background-color: #48576a;
+    color: #bfcbd9;
+
+    .navChild {
+      color: #bfcbd9;
+      margin: 0;
+      background-color: #1f2d3d;
+    }
+  }
+}

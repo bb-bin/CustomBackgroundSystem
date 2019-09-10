@@ -1,3 +1,8 @@
+/**
+ * Routes:
+ *  - ./src/layouts/baseLayout.js
+ */
+
 import styles from './index.css';
 
 export default function() {
