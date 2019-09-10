@@ -3,4 +3,10 @@
 #root {
   display: flex;
   height: 100%;
+  background: url(./assets/img/icon.jpg) no-repeat;
+  background-size: cover;
+}
+
+#root > div:first-child {
+  flex: 1;
 }
