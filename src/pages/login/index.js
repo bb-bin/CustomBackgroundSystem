@@ -40,7 +40,7 @@ class Login extends React.Component{
                             valuePropName: 'checked',
                             initialValue: true,
                         })(<Checkbox>记住密码</Checkbox>)}
-                        <a className={styles.login_form_forgot} href="">
+                        <a className={styles.login_form_forgot} href="#">
                             忘记密码？
                         </a>
                         <Button type="primary" htmlType="submit" className={styles.login_form_button}>
